@@ -14,9 +14,28 @@
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
+
+  <style>
+    li {
+      list-style-type: square;
+    }
+
+    body {
+      background-color: bisque;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    label {
+      font-weight: bold;
+    }
+  </style>
+
 </head>
 
-<body>
+<form>
   <h1>Lista mea de cumparaturi</h1>
   <form>
     <h3>Carrefour</h3>
@@ -48,11 +67,88 @@
     </ul>
   </form>
 
+  <form>
+
+    <h3>Tech</h3>
+
+    <ul>
+      <li>
+        <label for="html">html</label>
+        <input
+          type="checkbox"
+          name="html"
+          id="html"
+        >
+      </li>
+
+      <li>
+        <label for="css">css</label>
+        <input
+          type="checkbox"
+          name="css"
+          id="css"
+        >
+      </li>
+
+      <li>
+        <label for="JavaScript">JavaScript</label>
+        <input
+          type="checkbox"
+          name="JavaScript"
+          id="JavaScript"
+        >
+      </li>
+    </ul>
+  </form>
+
+  <form>
+    <h3>Games</h3>
+
+    <ul>
+
+      <li>
+        <label for="God-of-War">God of War</label>
+        <input
+          type="checkbox"
+          name="God-of-War"
+          id="God-of-War"
+        >
+      </li>
+
+      <li>
+        <label for="Doom">Doom</label>
+        <input
+          type="checkbox"
+          name="Doom"
+          id="Doom"
+        >
+      </li>
+
+      <li>
+        <label for="WoW">WoW</label>
+        <input
+          type="checkbox"
+          name="WoW"
+          id="WoW"
+        >
+      </li>
+
+    </ul>
+
+  </form>
+
+
+
+
+
+
+
+
   <div
     class="pixeltab-host"
     id="html01-03-04"
   ></div>
   <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
-</body>
+  </body>
 
 </html>

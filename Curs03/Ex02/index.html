@@ -13,10 +13,54 @@
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
+  <style>
+    input {
+      background-color: aqua;
+    }
+  </style>
 </head>
 
 <body>
   <form>
+
+    <input
+      name="name"
+      placeholder="Nume"
+      required
+    >
+    <br>
+
+    <input
+      type="text"
+      name="surname"
+      placeholder="Prenume"
+      required
+    >
+    <br>
+
+    <input
+      name="username"
+      placeholder="Nume de utilizator"
+      maxlength="25"
+      minlength="3"
+    >
+    <br>
+
+    <input
+      type="email"
+      name="email"
+      placeholder="email@email.com"
+      required
+    >
+    <br>
+
+    <input
+      type="tel"
+      name="phone"
+      placeholder="nr telefon"
+      required
+    >
+
 
     <button type="submit">Trimite</button>
   </form>
