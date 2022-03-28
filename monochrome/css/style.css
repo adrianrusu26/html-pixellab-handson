@@ -259,44 +259,26 @@ a {
   margin: 0 auto;
 }
 
-.banner-cta {
+.banner-main {
   background: #2b2b2b url(../images/Banners/banner.png) no-repeat center;
   background-size: cover;
   height: 497px;
   width: 100%;
-  position: relative;
 }
 
 .header-connect {
   color: #e8e8e8;
-  position: absolute;
-  top: 40px;
-  left: 280px;
+  float: left;
   display: flex;
-}
-
-.header-connect div:nth-of-type(1) a {
-  margin-left: 16px;
-}
-
-.header-connect div:nth-of-type(2) {
-  margin-left: 32px;
+  margin-top: 40px;
+  margin-left: 212px;
 }
 
 .header-nav-top {
   display: flex;
-
-  position: absolute;
-  top: 40px;
-  left: 864px;
-}
-
-.header-nav-top .user-controls-header {
-  margin-left: 36px;
-}
-
-.header-nav-top .user-controls-header a {
-  margin-left: 16px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 328px;
 }
 
 .header-nav-bottom {
@@ -318,6 +300,7 @@ a {
 
 .home-catalog-preview {
   margin-top: 80px;
+  border-top: 2px solid #e8e8e8;
 }
 
 .home-catalog-preview .product-tiles {
@@ -351,6 +334,26 @@ a {
   text-align: center;
 }
 
+.product-tile div:first-of-type {
+  position: relative;
+}
+
+.product-tile .a2w {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-tile .a2w a {
+  transition: color 0.4s linear;
+}
+
+.product-tile .a2w a:hover {
+  color: crimson;
+}
+
 .catalog-break {
   margin-top: 120px;
   display: flex;
@@ -377,6 +380,23 @@ a {
 
 .catalog-break-text p:last-of-type {
   margin-top: 68px;
+}
+
+.home-catalog-preview .product-tile-controls {
+  text-align: center;
+}
+
+.home-catalog-preview .wa-cta {
+  border: none;
+  background: none;
+  font-size: 22px;
+  text-transform: lowercase;
+  border: 1px solid #2b2b2b;
+  padding: 12px 18px;
+  transition: background-color 0.4s linear;
+}
+.home-catalog-preview .wa-cta:hover {
+  background-color: crimson;
 }
 
 .footer {
