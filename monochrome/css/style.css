@@ -387,6 +387,7 @@ a {
 }
 
 .home-catalog-preview .wa-cta {
+  cursor: pointer;
   border: none;
   background: none;
   font-size: 22px;
@@ -394,9 +395,11 @@ a {
   border: 1px solid #2b2b2b;
   padding: 12px 18px;
   transition: background-color 0.4s linear;
+  transition: color 0.4s linear;
 }
 .home-catalog-preview .wa-cta:hover {
   background-color: crimson;
+  color: #e8e8e8;
 }
 
 .footer {
